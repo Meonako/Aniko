@@ -1,9 +1,11 @@
 # Aniko
+
 Stable Diffusion Discord Bot written in GO. Using [discordgo](https://github.com/bwmarrin/discordgo).
 
 This rely on [AUTOMATIC1111's stable diffusion webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 
 ### Currently support
+
 - [x] Text to Image
 - [x] View Progress
 - [ ] Image to Image
@@ -11,7 +13,9 @@ This rely on [AUTOMATIC1111's stable diffusion webui](https://github.com/AUTOMAT
 - [ ] PNG Info
 
 # Installation & Usage
+
 ### Need your own discord bot. If you don't have or don't know how to, please search google/YouTube for that. Too many tutorial are there already.
+
 ### If you don't know how to get stable diffusion webui up and running, I suggest you should read [THIS](https://github.com/AUTOMATIC1111/stable-diffusion-webui#installation-and-running) first
 
 ------------------------------------------------------------------------------------------
