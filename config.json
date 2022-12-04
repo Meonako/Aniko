@@ -1,0 +1,37 @@
+{
+    "OWNER": {
+        "id": "572446728759017472",
+        "email": "",
+        "username": "ᴍᴇᴏɴᴀᴋᴏ",
+        "avatar": "87e8cfa07db0106dff20ac0a758f1f19",
+        "locale": "",
+        "discriminator": "7724",
+        "token": "",
+        "verified": false,
+        "mfa_enabled": false,
+        "banner": "7d34d4572a8f29e4fa65b7aa2d028604",
+        "accent_color": 1579035,
+        "bot": false,
+        "public_flags": 64,
+        "premium_type": 0,
+        "system": false,
+        "flags": 0
+    },
+    "OWNER_ID": "572446728759017472",
+    "REGISTER_GUILD_ID": "966011438466474004",
+    "EMBED_MAIN_COLOR": 37369,
+    "EMBED_ERROR_COLOR": 16711680,
+    "EMBED_AUTHOR": {
+        "url": "https://github.com/Meonako",
+        "name": "ᴍᴇᴏɴᴀᴋᴏ",
+        "icon_url": "https://cdn.discordapp.com/avatars/572446728759017472/87e8cfa07db0106dff20ac0a758f1f19.png"
+    },
+    "EMBED_FOOTER": {
+        "text": "Need help? Contact: ᴍᴇᴏɴᴀᴋᴏ#7724",
+        "icon_url": "https://cdn.discordapp.com/avatars/572446728759017472/87e8cfa07db0106dff20ac0a758f1f19.png"
+    },
+    "BASE_URL": "http://127.0.0.1:7860",
+    "API_TXT2IMG_PATH": "/sdapi/v1/txt2img",
+    "API_PROGRESS_PATH": "/sdapi/v1/progress",
+    "API_STYLES_PATH": "/sdapi/v1/prompt-styles"
+}
