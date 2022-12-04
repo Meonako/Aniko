@@ -14,9 +14,9 @@ This rely on [AUTOMATIC1111's stable diffusion webui](https://github.com/AUTOMAT
 
 # Installation & Usage
 
-### Need your own discord bot. If you don't have or don't know how to, please search google/YouTube for that. Too many tutorial are there already.
+### Need your own discord bot. If you don't have one or don't know how to create, please search Google/YouTube for that. Too many tutorial are there already.
 
-### If you don't know how to get stable diffusion webui up and running, I suggest you should read [THIS](https://github.com/AUTOMATIC1111/stable-diffusion-webui#installation-and-running) first
+### If you don't know how to get Stable Diffusion Web UI up and running, I suggest you should read [THIS](https://github.com/AUTOMATIC1111/stable-diffusion-webui#installation-and-running) first
 
 ----
 
@@ -45,7 +45,7 @@ go build
 
 ----
 
-Alternatively, you can download already build version in [releases](https://github.com/Meonako/Aniko/releases) section and follow these steps
+Alternatively on windows, you can download already build version in [releases](https://github.com/Meonako/Aniko/releases) section and follow these steps
 1. Create `config.env` where `Aniko.exe` is located
 1. Create variable named `TOKEN` and set it value to your discord bot token.
 
