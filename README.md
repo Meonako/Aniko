@@ -62,7 +62,7 @@ TOKEN=Section1.Section2.Section3
 
 # Usage
 
-### If you've done '**Change `BASE_URL` to webui url**' you can skip these steps
+### If you've done '**Change `BASE_URL` to webui url**' OR you webui url is '**http://127.0.0.1:7680**', you can skip these steps
 
 1. Go to your bot DM or any server that has your bot
 2. type `/set-url url:` and follow by your webui url
