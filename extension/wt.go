@@ -34,9 +34,9 @@ func init() {
 
 	if _, err := os.Stat("Aniko.exe"); os.IsNotExist(err) {
 		switch config.Config().IF_NOT_FOUND_BINARY {
-		case 0:
+		case RUN:
 			justRun()
-		case 1:
+		case BUILD:
 			buildAndRun()
 		}
 		return
