@@ -17,8 +17,9 @@ var (
 const (
 	PREFIX string = "Error launching windows terminal: "
 
-	RUN   int8 = 0
-	BUILD int8 = 1
+	RUN    int8 = 0
+	BUILD  int8 = 1
+	BINARY int8 = 2
 )
 
 func init() {
@@ -35,6 +36,8 @@ func init() {
 		justRun()
 	case BUILD:
 		buildAndRun()
+	case BINARY:
+		run()
 	}
 }
 
