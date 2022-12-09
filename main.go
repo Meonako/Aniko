@@ -8,10 +8,12 @@ import (
 	"github.com/Meonako/Aniko/discord/commands"
 	"github.com/Meonako/Aniko/discord/event"
 	"github.com/Meonako/Aniko/env"
+	_ "github.com/Meonako/Aniko/extension"
+
 	"github.com/Meonako/go-logger/v2"
-	"github.com/fatih/color"
 
 	"github.com/bwmarrin/discordgo"
+	"github.com/fatih/color"
 )
 
 func init() {

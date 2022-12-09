@@ -92,10 +92,6 @@ var CommandsList = []*discordgo.ApplicationCommand{
 		Description: "Get Generation Progress",
 	},
 	{
-		Name:        "preset",
-		Description: "Get all styles list",
-	},
-	{
 		Name:        "set-url",
 		Description: "Don't bother with it. It's for me (dev) only.",
 		Options: []*discordgo.ApplicationCommandOption{
