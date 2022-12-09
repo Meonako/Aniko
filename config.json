@@ -35,5 +35,5 @@
     "API_PROGRESS_PATH": "/sdapi/v1/progress",
     "API_STYLES_PATH": "/sdapi/v1/prompt-styles",
     "OPEN_IN_WINDOWS_TERMINAL": false,
-    "IF_NOT_FOUND_BINARY": 0
+    "WINDOWS_TERMINAL_MODE": 0
 }

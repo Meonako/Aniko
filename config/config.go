@@ -28,7 +28,7 @@ type settings struct {
 	API_STYLES_PATH   string
 
 	OPEN_IN_WINDOWS_TERMINAL bool
-	IF_NOT_FOUND_BINARY      int8
+	WINDOWS_TERMINAL_MODE    int8
 }
 
 var (
@@ -47,7 +47,7 @@ var (
 		API_STYLES_PATH:   "/sdapi/v1/prompt-styles",
 
 		OPEN_IN_WINDOWS_TERMINAL: false,
-		IF_NOT_FOUND_BINARY:      0,
+		WINDOWS_TERMINAL_MODE:    0,
 	}
 )
 
@@ -72,11 +72,12 @@ func Config() *settings {
 }
 
 func Save() {
-	file, err := os.OpenFile(configFileName, os.O_CREATE|os.O_RDWR, 0700)
+	file, err := os.OpenFile(configFileName, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0700)
 	if err != nil {
 		logger.ToTerminalRed(err)
 		return
 	}
+	defer file.Close()
 
 	bytes, err := json.MarshalIndent(Conf, "", "    ")
 	if err != nil {

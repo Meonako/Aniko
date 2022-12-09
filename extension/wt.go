@@ -30,17 +30,12 @@ func init() {
 		return
 	}
 
-	if _, err := os.Stat("Aniko.exe"); os.IsNotExist(err) {
-		switch config.Config().IF_NOT_FOUND_BINARY {
-		case RUN:
-			justRun()
-		case BUILD:
-			buildAndRun()
-		}
-		return
+	switch config.Config().WINDOWS_TERMINAL_MODE {
+	case RUN:
+		justRun()
+	case BUILD:
+		buildAndRun()
 	}
-
-	run()
 }
 
 func buildAndRun() {
