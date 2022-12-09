@@ -26,9 +26,7 @@ func init() {
 }
 
 func init() {
-	if !config.Config().OPEN_IN_WINDOWS_TERMINAL {
-		return
-	} else if *skipCheck {
+	if !config.Config().OPEN_IN_WINDOWS_TERMINAL || *skipCheck {
 		return
 	}
 
