@@ -14,12 +14,12 @@ var (
 	skipCheck = flag.Bool("skip-check", false, "Skip check & open Windows Terminal")
 )
 
-const (
-	PREFIX string = "Error launching windows terminal: "
+const PREFIX string = "Error launching windows terminal: "
 
-	RUN    int8 = 0
-	BUILD  int8 = 1
-	BINARY int8 = 2
+const (
+	RUN int8 = iota
+	BUILD
+	BINARY
 )
 
 func init() {
